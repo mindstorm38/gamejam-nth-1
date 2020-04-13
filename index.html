@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>La manie de la piste</title>
+        <script type="application/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+        <canvas id="map"></canvas>
+        <canvas id="race"></canvas>
+
+        <div id="main-menu">
+            <button id="act-edit">EDIT</button>
+            <button id="act-play">PLAY</button>
+        </div>
+
+        <div id="edit-help">
+            <p>Save & Quit : <code>ESC</code></p>
+            <p>Add Turn : <code>T</code></p>
+        </div>
+
+        <div id="edit-turn-width">
+            <label for="turn-width">Turn Width</label>
+            <input type="number" id="turn-width" />
+        </div>
+
+        <div id="edit-turn-corner1">
+            <label for="turn-corner1">Corner N°1 Radius</label>
+            <input type="number" id="turn-corner1" />
+        </div>
+
+        <div id="edit-turn-corner2">
+            <label for="turn-corner2">Corner N°2 Radius</label>
+            <input type="number" id="turn-corner2" />
+        </div>
+
+        <div id="playing-stop">
+            <button id="act-stop-playing">STOP PLAYING</button>
+        </div>
+
+    </body>
+
+</html>
